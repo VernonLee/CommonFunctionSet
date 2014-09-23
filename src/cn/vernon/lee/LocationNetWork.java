@@ -1,7 +1,7 @@
 package cn.vernon.lee;
 
-import java.util.List;
 
+/**
 import com.amap.api.location.AMapLocalDayWeatherForecast;
 import com.amap.api.location.AMapLocalWeatherForecast;
 import com.amap.api.location.AMapLocalWeatherListener;
@@ -20,7 +20,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.widget.TextView;
 
-/**
+
  * 描述：自动定位获取天气
  * 实现方式：第三方 高德地图
  * 具体实现：
@@ -31,7 +31,7 @@ import android.widget.TextView;
  *    
  * @since 2014-9-23
  * @author huailiang
- */
+
 public class AMapHomePageActivity extends Activity implements 
 				AMapLocationListener, AMapLocalWeatherListener, Runnable {
 	private TextView tvCity, tvTempture, tvDetail;
@@ -187,3 +187,4 @@ public class AMapHomePageActivity extends Activity implements
         ToastUtil.show(this,"获取天气预报失败:"+ aMapLocalWeatherLive.getAMapException().getErrorMessage());
 	}
 }
+ */
